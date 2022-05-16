@@ -25,7 +25,7 @@ input[type='radio'] {
   width: 100%;
   overflow: hidden;
   background-color: var(--color-slide);
-  border-radius: 3px;
+  border-radius: 0.2rem;
 }
 
 .slider__slides {
@@ -102,12 +102,12 @@ input[type='radio'] {
 }
 
 .slider__navigation > label:hover > span {
-  box-shadow: 0 0 4px 2px var(--color-accent-main);
+  box-shadow: 0 0 0.25rem 0.15rem var(--color-accent-main);
 }
 
 .slider__navigation > label:active > span {
   box-shadow: none;
-  border: 2px solid var(--color-accent-main);
+  border: 0.15rem solid var(--color-accent-main);
   background-color: var(--color-dark-main);
   -webkit-tap-highlight-color: transparent;
 }
@@ -120,7 +120,7 @@ a {
 a:hover {
   text-decoration: underline;
   text-decoration-color: var(--color-accent-main);
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 0.2rem;
 }
 
 a:visited {
