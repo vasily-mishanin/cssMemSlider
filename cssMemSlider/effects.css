@@ -1,0 +1,90 @@
+/* LOGIC */
+/* SLIDES movement */
+#control-1:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(0);
+}
+#control-2:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(-105%);
+}
+#control-3:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(-210%);
+}
+#control-4:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(-315%);
+}
+#control-5:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(-420%);
+}
+#control-6:checked ~ .slider > .slider__viewport > .slider__slides {
+  transform: translateX(-525%);
+}
+
+/* TEXT movement */
+#control-1:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(0);
+}
+#control-2:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(-100%);
+}
+#control-3:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(-200%);
+}
+#control-4:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(-300%);
+}
+#control-5:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(-400%);
+}
+#control-6:checked ~ .slider > .slider__captions-viewport > .slider__captions {
+  transform: translateX(-500%);
+}
+
+/* CONTROLS EFFECTS */
+
+#control-1:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-1']
+  > span {
+  background-color: var(--color-accent-main);
+}
+
+#control-2:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-2']
+  > span {
+  background-color: var(--color-accent-main);
+}
+
+#control-3:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-3']
+  > span {
+  background-color: var(--color-accent-main);
+}
+
+#control-4:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-4']
+  > span {
+  background-color: var(--color-accent-main);
+}
+
+#control-5:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-5']
+  > span {
+  background-color: var(--color-accent-main);
+}
+
+#control-6:checked
+  ~ .slider
+  > .slider__navigation
+  > label[for='control-6']
+  > span {
+  background-color: var(--color-accent-main);
+}
